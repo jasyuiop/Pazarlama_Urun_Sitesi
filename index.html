@@ -354,18 +354,28 @@
 
           <div class="form-container active">
             <form action="">
-              <input placeholder="Kart Numarası" type="tel" name="number" />
-              <input placeholder="Kart Sahibi" type="text" name="name" />
-              <input placeholder="AA/YY" type="tel" name="expiry" />
-              <input placeholder="CVC" type="number" name="cvc" />
-              <button id="buy-button" onclick="Alert()">
+              <input
+                id="cardnumber"
+                placeholder="Kart Numarası"
+                type="tel"
+                name="number"
+              />
+              <input
+                id="cardowner"
+                placeholder="Kart Sahibi"
+                type="text"
+                name="name"
+              />
+              <input
+                id="cardexpiry"
+                placeholder="AA/YY"
+                type="tel"
+                name="expiry"
+              />
+              <input id="cardcvc" placeholder="CVC" type="number" name="cvc" />
+              <button id="buy-button" onclick="msgcontrol()">
                 <p style="color:white">4.70€ Tutarında ödeme Yap</p>
               </button>
-              <script>
-                function Alert() {
-                  alert("Satın Alma Başarılı");
-                }
-              </script>
             </form>
           </div>
         </div>
@@ -376,7 +386,6 @@
         new Card({
           form: document.querySelector("form"),
           container: ".card-wrapper",
-
           width: 400, // optional — default 350px
           formatting: true, // optional - default true
 
