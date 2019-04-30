@@ -1,7 +1,7 @@
 body {
   margin: 0px;
   border: 0px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 #home {
   width: 100%;
@@ -45,41 +45,39 @@ nav ul {
   padding: 0;
 }
 /* nav ul li  */
-.nav-li{
+.nav-li {
   display: inline-block;
   list-style-type: none;
   font-size: 20px;
 }
-.nav-li-new{
+.nav-li-new {
   display: inline-block;
   list-style-type: none;
   font-size: 20px;
 }
 
-
-.nav-a{/* nav > ul > li > a */
+.nav-a {
+  /* nav > ul > li > a */
   color: white;
   display: block;
   line-height: 40px;
   padding: 0 12px;
   text-decoration: none;
-
 }
 
-.nav-a-sabit{
+.nav-a-sabit {
   color: rgba(61, 70, 122, 0.842);
   display: block;
   line-height: 40px;
   padding: 0 12px;
   text-decoration: none;
-
 }
 .nav-li:hover {
   background-color: white;
   border-radius: 20px;
 }
 .nav-li-new:hover {
-  background-color:rgba(61, 70, 122, 0.842);
+  background-color: rgba(61, 70, 122, 0.842);
   border-radius: 20px;
 }
 
@@ -90,7 +88,6 @@ nav ul {
   color: white;
 }
 
-
 #container-content {
   width: 600px;
   margin: auto;
@@ -99,132 +96,130 @@ nav ul {
 #container-content h1,
 p {
   margin: auto;
-  color:white;
+  color: white;
 }
 #container-content h1 {
   font-size: 50px;
 }
-#container-content p{
-    font-size: 20px;
+#container-content p {
+  font-size: 20px;
 }
 button {
   margin-top: 20px;
   background-color: black;
   border-radius: 15px;
   color: white;
-
 }
 button img {
   height: 55px;
   align-content: center;
-  
 }
-#header-images{
-    margin-top: 150px;
+#header-images {
+  margin-top: 150px;
 }
-#header-images img{
-    border-style: groove;
-    border-width: 12px; 
-    border-color: white;
-    margin-left: 8px;
-    
+#header-images img {
+  border-style: groove;
+  border-width: 12px;
+  border-color: white;
+  margin-left: 8px;
 }
 
 /* abut */
 #about {
-    width: 100%;
-    margin: 0px;
-    left: 0px;
-    right: 0px;
-    height: 900px;
-    background-color: white;
-  }
-#about-title{
-    margin-top: 60px;
-    color:rgba(61, 70, 122, 0.842);
+  width: 100%;
+  margin: 0px;
+  left: 0px;
+  right: 0px;
+  height: 900px;
+  background-color: white;
 }
-#about-paragraph{
+#about-title {
+  margin-top: 60px;
+  color: rgba(61, 70, 122, 0.842);
+}
+#about-paragraph {
   margin-top: 10px;
-  color:orangered;
+  color: orangered;
 }
-#about-content-paragraph,#about-content-text{
-    margin-left: 20px;
-    color: black;
-}
-#about-content-text p{
+#about-content-paragraph,
+#about-content-text {
   margin-left: 20px;
-    color:black;
-    font-size: 20px;
+  color: black;
 }
-#about-content-text p2{
+#about-content-text p {
+  margin-left: 20px;
+  color: black;
+  font-size: 20px;
+}
+#about-content-text p2 {
   margin-left: px;
-    color:orangered;
-    font-size: 20px;
+  color: orangered;
+  font-size: 20px;
 }
-#about-content-text button{
+#about-content-text button {
   height: 50px;
   width: 150px;
   border-radius: 60px;
   margin-left: 20px;
-    background-color:rgba(61, 70, 122, 0.842);
-    font-size: 200px;
+  background-color: rgba(61, 70, 122, 0.842);
+  font-size: 200px;
 }
-#about-content-text button:hover{
+#about-content-text button:hover {
   height: 50px;
   width: 150px;
   border-radius: 60px;
   margin-left: 20px;
-    background-color:steelblue;
-    font-size: 20px;
-  }
-#features-title h1{
+  background-color: steelblue;
+  font-size: 20px;
+}
+#features-title h1 {
   margin-top: 120px;
   margin-left: 20px;
-  color:rgba(61, 70, 122, 0.842);
-  font-size: 50px;  
+  color: rgba(61, 70, 122, 0.842);
+  font-size: 50px;
 }
-#features-title p{
+#features-title p {
   margin-left: 20px;
-  color:orangered;
-  font-size: 18px;  
+  color: orangered;
+  font-size: 18px;
 }
-#features-features h1{
+#features-features h1 {
   margin-top: 0px;
   margin-left: 20px;
-  color:rgba(61, 70, 122, 0.842);
-  font-size: 30px;  
+  color: rgba(61, 70, 122, 0.842);
+  font-size: 30px;
 }
-#features-features p{
+#features-features p {
   margin-left: 20px;
-  color:black;
+  color: black;
 }
-#features-images{
+#features-images {
   margin-top: 150px;
 }
-#features-images img{
+#features-images img {
   border-style: solid;
-  border-width: 12px; 
+  border-width: 12px;
   border-color: white;
   margin-left: 8px;
-  
 }
-#screenshots-images{
+#screenshots-images {
   margin-top: 80px;
 }
-#screenshots-images img{
+#screenshots-images img {
   border-style: solid;
-  border-width: 12px; 
+  border-width: 12px;
   border-color: white;
   margin-left: 8px;
-  
 }
-#buy h1{
-  color:rgba(61, 70, 122, 0.842);
-  font-size:40px;
+#buy-button {
+  height: 50px;
+  width: 200px;
+  border-radius: 60px;
+  background-color: rgba(61, 70, 122, 0.842);
+  font-size: 18px;
+  margin-left: 45px;
 }
-#buy-images img{
-  text-align:center
-}
-#buy p{
-  color:orangered;
+::placeholder {
+  color: rgba(61, 70, 122, 0.842);
+  font-size: 16px;
 }
