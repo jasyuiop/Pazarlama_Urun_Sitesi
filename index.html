@@ -337,28 +337,37 @@
           width: 200px;
           margin: 10px auto;
           display: block;
-          border-radius: 3px;
+          padding-left: 5px;
+          font-size: 16px;
+          border-radius: 10px;
+          color: white;
+          background-color: rgba(61, 70, 122, 0.842);
         }
       </style>
+      <div id="buy" class="demo">
+        <table></table>
+        <center>
+          <h2>Satın Al</h2>
+        </center>
+        <div class="demo-container">
+          <div class="card-wrapper"></div>
 
-      <div id="buy" class="demo-container">
-        <div class="card-wrapper"></div>
-
-        <div class="form-container active">
-          <form action="">
-            <input placeholder="Kart Numarası" type="tel" name="number" />
-            <input placeholder="Kart Sahibi" type="text" name="name" />
-            <input placeholder="AA/YY" type="tel" name="expiry" />
-            <input placeholder="CVC" type="number" name="cvc" />
-            <button id="buy-button" onclick="Alert()">
-              <p style="color:white">4.70€ Ödeme Yap</p>
-            </button>
-            <script>
-              function Alert() {
-                alert("Satın Alma Başarılı");
-              }
-            </script>
-          </form>
+          <div class="form-container active">
+            <form action="">
+              <input placeholder="Kart Numarası" type="tel" name="number" />
+              <input placeholder="Kart Sahibi" type="text" name="name" />
+              <input placeholder="AA/YY" type="tel" name="expiry" />
+              <input placeholder="CVC" type="number" name="cvc" />
+              <button id="buy-button" onclick="Alert()">
+                <p style="color:white">4.70€ Tutarında ödeme Yap</p>
+              </button>
+              <script>
+                function Alert() {
+                  alert("Satın Alma Başarılı");
+                }
+              </script>
+            </form>
+          </div>
         </div>
       </div>
 

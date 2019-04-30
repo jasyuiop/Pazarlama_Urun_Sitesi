@@ -220,6 +220,17 @@ button img {
   margin-left: 45px;
 }
 ::placeholder {
-  color: rgba(61, 70, 122, 0.842);
+  color: white;
   font-size: 16px;
+}
+#buy {
+  background-image: url(images/buyedd6.png);
+  background-position: center;
+  background-size: cover;
+  padding: 3px;
+}
+#buy h2 {
+  color: darkorange;
+  margin-top: 80px;
+  font-size: 35px;
 }
